@@ -190,7 +190,9 @@ var franchiseStores = L.geoJSON(null, {
       /*
           +"<div class='block row'><div class='col-xs-12'><div style='display:table-cell;'><i style='vertical-align: middle;' class='material-icons'>local_phone</i> Telefon +49 xxxxxxxxx</div></div></div>"
       */
-      +"<div class='block row'><div class='col-xs-10'><div style='display:table-cell;'><i style='vertical-align: middle;' class='material-icons'>directions</i>Distance on Google Maps</div></div>"
+
+      +"<div class='block row'><div class='col-xs-10'><div style='display:table-cell;'><img width='16' height='18' src='assets/img/directions.png'>Distance on Google Maps</div></div>"
+      
       +"<div class='col-xs-2 link'><a href='"+feature.properties.GoogleMap+"' target=_blank><i class='fa fa-chevron-right' aria-hidden='true'></i></a></div>"
       +"</div></div>"
       
